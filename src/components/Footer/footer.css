@@ -1,11 +1,51 @@
-.footer-body {
-
-    width: 100%;
-    height: auto;
-    font-family: Helvetica;
-    background: #343412;
+.footer-text-color-grey {
+    color: #797979;
 }
 
-h1 {
-    color: #ffffff;
+.footer-text-color-black-bold {
+    color: #000000;
+    font-weight: 500;
+}
+
+.footer-text-color-blue {
+    color: #D0DFE5;
+
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6.82rem;
+    font-family: Helvetica;
+    align-items: center;
+}
+.social_icon{
+    width: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5.42rem;
+}
+.Legal_area {
+    display: flex;
+}
+
+.phone_number {
+    margin-right: 3.21rem;
+}
+
+.contact_info {
+    display: flex;
+    margin-right: 4.78rem;
+}
+
+.contact_info p {
+    display: inline;
+}
+
+.Legal_area {
+    width: 25.28rem;
+    display: flex;
+
+    justify-content: space-between;
 }

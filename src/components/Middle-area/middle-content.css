@@ -1,11 +1,50 @@
+.footer-text-color-grey {
+    color: #797979;
+}
+
+.footer-text-color-black-bold {
+    color: #000000;
+    font-weight: 500;
+}
+
+.footer-text-color-blue {
+    color: #D0DFE5;
+
+}
+
+
 .middle-content-body {
-
-    width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5.42rem;
+    margin-top: -2rem;
+    width: 80%;
+    height: 31rem;
     font-family: Helvetica;
-    background: #343412;
 }
 
-h1 {
-    color: #ffffff;
+.content_area {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 13.57rem;
 }
+
+.content_scroll_area {
+    display: flex;
+    margin-left: 7.21rem;
+}
+
+.content_title p{
+    margin-top: 8.9rem;
+    margin-bottom: 2.28rem;
+    color: #9242A5;
+    font-size: 2.71rem;
+    font-weight: 800;
+}
+
+.content_title_nav{
+    display: flex;
+    width: 2.5rem;
+    justify-content: space-between;
+}
+
