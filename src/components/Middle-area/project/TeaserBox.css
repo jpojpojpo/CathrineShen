@@ -1,0 +1,45 @@
+.box {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5.5rem;
+    width: 100%;
+    background: url("background.jpg") ;
+    background-size: contain;
+}
+
+.mask{
+    z-index: 1;
+    top:0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba( 255,255,255,0.9);
+}
+
+.description_container {
+    position: relative;
+    z-index: 2;
+}
+.button_container{
+    position: relative;
+    z-index: 2;
+}
+.project_title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: black;
+}
+
+.split_line {
+    height: 0.5rem;
+    width: 1.8rem;
+    border-bottom: 2px #D368BD solid;
+}
+
+.description {
+    margin-top: 1.5rem;
+}

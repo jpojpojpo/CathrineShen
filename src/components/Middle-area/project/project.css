@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    overflow: scroll;
+    height: 55rem;
+}
+
+.box {
+    min-height: 22rem;
+    height: 22rem;
+}
